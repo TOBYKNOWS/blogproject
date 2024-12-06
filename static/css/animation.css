@@ -1,0 +1,73 @@
+div.card1{
+    animation-name: card1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: .1s;
+}
+@keyframes card1 {
+    from{
+        top:30px
+    }
+    to{
+        top:0px
+    }
+}
+div.card2{
+    animation-name: card2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: .2s;
+}
+@keyframes card2 {
+    from{
+        top:30px
+    }
+    to{
+        top:0px
+    }
+}
+
+div.card3{
+    animation-name: card3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: .3s;
+}
+@keyframes card3 {
+    from{
+        top:30px
+    }
+    to{
+        top:0px
+    }
+}
+
+div.card4{
+    animation-name: card4;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: .4s;
+}
+@keyframes card4 {
+    from{
+        top:30px
+    }
+    to{
+        top:0px
+    }
+}
+
+div.card5{
+    animation-name: card5;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: .5s;
+}
+@keyframes card5 {
+    from{
+        top:30px
+    }
+    to{
+        top:0px
+    }
+}

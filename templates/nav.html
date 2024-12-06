@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="{% static 'css/indexcss.css' %}">
+    <!-- <link rel="stylesheet" href="/assets/css/animation.css"> -->
+    <title>Document</title>
+
+</head>
+
+<body>
+    <nav>
+    <div class="page-body">
+
+       <header class="header">
+         <div class="header-logo-sect">
+            <p class="web-name">QUDROID BLOG</p>
+         </div>
+         <div class="header-nav-sect">
+            <div class="search">
+              <div class="input-sect">
+                <input type="search" class="search-inp" placeholder="search here">
+              </div>
+              <div class="button-sect">
+                <button class="btn">
+                    Search
+                </button>
+              </div>
+            </div>
+         </div>
+         <div class="header-menu-sect">
+            <div class="nav-sect">
+               <a href="/">Home</a>
+               <a href="/blogs/">Blogs</a>
+               <a href="/about/">About Us</a>
+               <a href="/contact/">Contact Us</a>
+            </div>
+            <div class="menu-sect">
+               <span class="material-symbols-outlined">
+                  menu
+               </span>
+            </div>
+         </div>
+       </header>
+    
+       <div class="hero-main-footer">
+            <div class="hero-sect">
+               <div class="sect1">
+                <p class="welcome-msg" data-aos="fade-up">WELCOME TO QUDROID BLOG</p>
+               </div>
+               <div class="sect2">
+                <div class="sect-img-body">
+                  <img src="{% static 'image/hero-bg.png' %}" style="width: 100%; height: 100%;" alt="">
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</nav>
+</body>
