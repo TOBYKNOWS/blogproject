@@ -18,5 +18,8 @@ def footer(request):
 def form(request):
     return render(request, 'form.html')
 
+def blogform(request):
+    return render (request, 'blogform.html')
+
 def nav(request):
     return render(request, 'nav/.html')
