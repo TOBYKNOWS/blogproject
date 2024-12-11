@@ -1,0 +1,26 @@
+{% extends "master.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+{% block 'content' %}     
+<body>
+    <br>
+    <br>
+    <br>
+    <h2>SIMPLE FORM</h2>
+    <form>
+       <p>department</p>
+        <input type="text"> <br>
+        <p>coursename</p>
+        <input type="text">
+        <p> coursecode</p>
+        <input type="email"><br>
+        <button type="submit">submit</button>
+    </form>
+    {% endblock 'content' %}
+</body>
+</html>
