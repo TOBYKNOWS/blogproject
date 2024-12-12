@@ -23,3 +23,7 @@ def blogform(request):
 
 def nav(request):
     return render(request, 'nav/.html')
+
+def contactpage(request):
+    return render(request, 'contactpage.html')
+

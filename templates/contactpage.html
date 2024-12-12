@@ -1,0 +1,195 @@
+{% extends "master.html" %}
+
+<br>
+<br>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+     
+<body>
+    <br>
+    <br>
+    <br>
+    <h2>CONTACT FORM</h2>
+    <br>
+    <br>
+    <form>
+       <p>address</p>
+        <input type="text"> <br>
+        <p>phone number</p>
+        <input type="number">
+        <p> mail</p>
+        <input type="email"><br>
+        <button type="submit">submit</button>
+    </form>
+    
+</body>
+</html> -->
+
+
+
+
+{% block 'content' %}
+
+<br>
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+    
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional portfolio showcasing my work, skills, and experience.">
+    <title>TOBY KNOWS - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link external CSS if you want more customization -->
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #5b7131;
+            color: #333;
+        }
+        header {
+            background: #9a937886;
+            color: black;
+            padding: 2em 0;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 1em;
+            background: #444;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background: #bfe7b5;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: black;
+        }
+        .about-photo {
+            border-radius: 50%;
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+        .projects, .skills, .contact {
+            text-align: left;
+        }
+        .project, .skill {
+            padding: 1em 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2em;
+            font-size: 0.9em;
+            background: rgb(56, 61, 52);
+            color: #fff;
+        }
+        .social-links a {
+            color: #580e0e;
+            text-decoration: none;
+            font-size: 1.3em;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>TOBY KNOWS</h1>
+        <p>Web Developer | Data Analyst | Musician</p>
+        <nav class="navbar">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <img src="myimage.jpg" alt="TOBY KNOWS" class="about-photo">
+        <p>Hello! I'm an enthusiastic developer with a passion for creating impactful web applications. With a solid foundation in HTML, CSS, Python, and various front-end/back-end frameworks, I enjoy transforming ideas into digital experiences. Always learning, always building. :) </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>A clean, responsive portfolio site built with HTML, CSS, and Python, featuring my projects and contact information.</p>
+                <a href="coming_soon.html" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Inventory App</h3>
+                <p>Created a real time Inventory app using HTML, CSS, and Python.</p>
+                <a href="project-link.html" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>E-commerce Platform</h3>
+                <p>Developed an e-commerce website with an intuitive user interface and integrated a payment gateway using python, html and other programming languages.</p>
+                <a href="coming_soon.html" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <ul>
+            <li class="skill"><strong>HTML:</strong> Expert in semantic HTML, accessibility, and responsive design</li>
+            <li class="skill"><strong>CSS:</strong> Skilled in CSS Flexbox, Grid, animations, and modern styling techniques</li>
+            <li class="skill"><strong>Python</strong> Proficient in using python and responsive backend</li>
+            <li class="skill"><strong>Git:</strong> Comfortable with version control, collaboration, and branching workflows</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to discuss a project or just want to connect, feel free to reach out to me via email or social media.</p>
+        <!-- <ul>
+            <li>Email: <a href="www.eskoma50@gmailcom.com">Mail</a></li>
+            <li>GitHub: <a href="https://github.com/TOBYKNOWS" target="_blank">TOBYKNOWS</a></li>
+            <li> Twitter:<a href="https://twitter.com/tobyyknowz" target="_blank">Twitter Handle</a></li>
+        </ul> -->
+        <div class="social-links">
+            <a href="https://github.com/TOBYKNOWS" target="_blank">GitHub</a>
+            <a href="https://twitter.com/tobyyknowz" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TOBY KNOWS. All rights reserved.</p>
+    </footer>
+
+{% endblock 'content' %}
+
+</body>
+</html>
